@@ -3,12 +3,12 @@ import { Book } from "./Book";
 export const Experience = () => {
   return (
     <>
-      <Float
+         <Float
         rotation-x={-Math.PI / 4}
         rotation-y={Math.PI / 1}
         floatIntensity={1}
-        speed={2}
-        rotationIntensity={2}
+        speed={0.5}
+        rotationIntensity={1}
       >
         <Book/>
       </Float>
